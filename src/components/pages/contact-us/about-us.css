@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about-us-main {
+    background-image: url("/src/assets/loging pic.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+
+div.about-main {
+    width: 400px;
+    margin: 0px 40px 40px 300px;
+}
+
+div.about {
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 200%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+div.tclass {
+    text-align: center;
+}
+
+.fs-50{
+    font-size: 50px;
+}

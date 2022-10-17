@@ -1,0 +1,67 @@
+body{
+	height: 100vh;
+background-image: linear-gradient(to right top, #051937, #104067, #136b99, #089bcb, #00cef9);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.card{
+overflow:hidden;
+border: 0;
+border-radius: 20px;
+/*box-shadow:*/  
+}
+.img-left{
+width: 45%;
+background:url('../asdf.jpg');
+background-size: cover; 
+}
+.card-body{
+	padding: 2rem;}
+.title{margin-bottom: 10px; }
+
+.form-input input{
+	width: 100%;
+	height: 45px;
+	padding-left: 40px;
+	margin-bottom:20px;
+	box-sizing: border-box;
+	border: 1px solid ;
+	border-radius: 60px;
+	box-shadow: none;
+	outline: none;
+}
+
+.form-input span{
+position: absolute;
+top: 10px;
+padding-left: 10px;
+color: #007bff;
+
+
+}
+
+.mb-3 button{
+	width: 40%;
+	height: 45px;
+	padding-left: 10px;
+	margin-bottom:20px;
+	border-radius: 60px;
+	box-shadow: none;
+	outline: none;
+	background-color: #007bff;
+	font-weight: bold;
+	border: 2px solid #00000;
+}
+
+.forget{
+	text-align: center;
+}
+
+p.error {
+	background: red;
+	color: white;
+	padding: 10px;
+}

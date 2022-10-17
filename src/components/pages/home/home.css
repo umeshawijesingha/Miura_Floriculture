@@ -1,0 +1,14 @@
+.hero-img {
+    object-fit: cover;
+
+}
+
+.fs-100{
+    font-size: 100px;
+}
+
+.position-config{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
